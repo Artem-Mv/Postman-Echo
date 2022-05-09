@@ -17,7 +17,7 @@ public class PostmanEchoApiTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("name"))
+                .body("data", equalTo("12name"))
         ;
     }
 }
